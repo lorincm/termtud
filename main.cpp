@@ -1,6 +1,6 @@
-//TERMTUD PROJEKT - L’RINC MIH¡LY
+//TERMTUD PROJEKT - L√ïRINC MIH√ÅLY
 
-//A K”DBAN L……V’ SZ÷RNY€ MEGOLD¡SOK…RT NEM V¡LLALOK FELELL’S…GET
+//this code == shit
 
 #include <iostream>
 #include <string>
@@ -17,23 +17,23 @@ void init(std::string &DNS, std::string &DNS2, std::string &mRNS, std::string &A
 
 int main()
 {
-	sf::RenderWindow		window(sf::VideoMode(w, h), "DNS kÛdol·s", sf::Style::Close);
+	sf::RenderWindow		window(sf::VideoMode(w, h), "DNS k√≥dol√°s", sf::Style::Close);
 	sf::RectangleShape		typeBox(sf::Vector2f(550.0f, 50.0f));
 	sf::RectangleShape		typeBox1(sf::Vector2f(550.0f, 50.0f));
 	sf::RectangleShape		typeBox2(sf::Vector2f(550.0f, 50.0f));
 	sf::RectangleShape		typeBox3(sf::Vector2f(550.0f, 50.0f));
 	sf::RectangleShape		apply(sf::Vector2f(150.0f, 75.0f));
-	bool					isTypeBox1Clicked = false;
-	bool					isTypeBox2Clicked = false;
-	bool					isTypeBox3Clicked = false;
-	bool					isCheckd = false;
-	sf::Text				DNSText, DNS2Display, RNSDisplay, AminoDisplay;
-	sf::Font				font;
+	bool				isTypeBox1Clicked = false;
+	bool				isTypeBox2Clicked = false;
+	bool				isTypeBox3Clicked = false;
+	bool				isCheckd = false;
+	sf::Text			DNSText, DNS2Display, RNSDisplay, AminoDisplay;
+	sf::Font			font;
 
 	srand(time(NULL));
-	std::string				DNS, DNS2, mRNS;
-	std::string				Amino;
-	std::string				DNS2Input, mRNSInput, AminoInput;
+	std::string			DNS, DNS2, mRNS;
+	std::string			Amino;
+	std::string			DNS2Input, mRNSInput, AminoInput;
 
 	unsigned int			rando = 0;
 
@@ -59,7 +59,7 @@ int main()
 	DNSText.setOrigin(orig.width / 2, orig.height / 2);
 	DNSText.setPosition(w / 2, h / 2 - 157.0f);
 
-	DNS2Display.setString("A DNS 2. sz·la");
+	DNS2Display.setString("A DNS 2. sz√°la");
 	orig = DNS2Display.getGlobalBounds();
 	DNS2Display.setOrigin(orig.width / 2, orig.height / 2);
 	DNS2Display.setPosition(w / 2, h / 2 - 82.0f);
@@ -102,7 +102,7 @@ int main()
 
 		if (DNS2Input.length() == 0 && !isTypeBox1Clicked)
 		{
-			DNS2Display.setString("A DNS 2. sz·la");
+			DNS2Display.setString("A DNS 2. sz√°la");
 		}
 		else
 		{
