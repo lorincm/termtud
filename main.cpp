@@ -289,7 +289,7 @@ int main()
 						AminoDisplay.setString(AminoInput);
 						break;
 					}
-					if (AminoInput.length()<23)
+					if (AminoInput.length()<29)
 					{
 						AminoInput.push_back(event.text.unicode);
 						AminoDisplay.setString(AminoInput);
