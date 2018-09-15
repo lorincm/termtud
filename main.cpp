@@ -1,7 +1,5 @@
 //TERMTUD PROJEKT - LÕRINC MIHÁLY
 
-//this code == shit
-
 #include <iostream>
 #include <string>
 #include <algorithm>
