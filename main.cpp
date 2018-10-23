@@ -1,4 +1,3 @@
-//TERMTUD PROJEKT - LÕRINC MIHÁLY
 
 #include <iostream>
 #include <string>
